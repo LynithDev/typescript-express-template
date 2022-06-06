@@ -1,7 +1,7 @@
+import { Route } from 'src/handler';
+
 export default {
-    method: 'get',
-    url: '/',
     run: (req, res) => {
         res.send('index');
     },
-};
+} as Route;
